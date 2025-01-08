@@ -16,6 +16,7 @@ pipeline {
             }
             steps {
                 sh '''
+                    echo "small change to check SCM polling trigger"
                     ls -la
                     node --version
                     npm --version
