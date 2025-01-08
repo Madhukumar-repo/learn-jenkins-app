@@ -67,6 +67,7 @@ pipeline {
                     input message : 'Ready to deploy.?', ok: 'Yes, i am sure i want to deploy!'  
                 }
             }
+        }
 
        stage('Deploy prod') {
             agent{
